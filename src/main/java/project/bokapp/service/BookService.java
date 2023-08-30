@@ -1,10 +1,14 @@
 package project.bokapp.service;
 
 import java.util.List;
-import project.bokapp.model.Book;
+
+import project.bokapp.dto.BookDto;
+import project.bokapp.dto.CreateBookRequestDto;
 
 public interface BookService {
-    Book save(Book book);
+    BookDto save(CreateBookRequestDto requestDto);
 
-    List findAll();
+    BookDto findById(Long id);
+
+    List<BookDto> findAll();
 }
