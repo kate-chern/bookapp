@@ -6,4 +6,7 @@ import project.bokapp.dto.BookSearchParametersDto;
 public interface SpecificationBuilder<T> {
     Specification<T> build(BookSearchParametersDto bookSearchParametersDto);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/hw-spring-web
