@@ -27,7 +27,4 @@ public class BookSpecificationBuilder implements SpecificationBuilder<Book> {
         return spec;
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/hw-spring-web

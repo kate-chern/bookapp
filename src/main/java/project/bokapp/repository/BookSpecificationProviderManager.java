@@ -20,7 +20,4 @@ public class BookSpecificationProviderManager implements SpecificationProviderMa
                         "Can't find correct specification provider for key " + key));
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/hw-spring-web

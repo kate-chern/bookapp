@@ -7,7 +7,4 @@ public interface SpecificationProvider<T> {
 
     Specification<T> getSpecification(String[] params);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/hw-spring-web
